@@ -7,7 +7,7 @@ const Footer = () => {
   let status = "Present";
   let mode = "Online";
   let reportIssue = "No Issues";
-  let userReport = Array(15).fill({serialNumber, conductedBy, time, status, mode, reportIssue}); // many rows
+  let userReport = Array(4).fill({serialNumber, conductedBy, time, status, mode, reportIssue}); // many rows
 
   return (
     <>
